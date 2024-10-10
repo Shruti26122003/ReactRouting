@@ -1,0 +1,52 @@
+
+.about-container {
+    padding: 50px 20px; 
+    min-height: 80vh; 
+    background-color: #f2f2f2; 
+    color: #333;
+    text-align: center;
+}
+
+.about-container h1 {
+    font-size: 2.5rem;
+    color: #4A90E2; 
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-container button {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    background-color: #4A90E2; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.about-container button:hover {
+    background-color: #357ABD; 
+    transform: scale(1.05);
+}
+
+
+footer.about-footer {
+    background-color: #e3e3e3; 
+    color: #333;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ccc;
+}
