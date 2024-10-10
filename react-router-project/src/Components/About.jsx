@@ -11,7 +11,7 @@ const About = () => {
     <div className='about-container'>
         <h1> About Us </h1>
         <p>
-            lets learn something new.
+            Lets learn something new.
         </p>
          <button onClick={handleClick}>
             Move to dashboard page
