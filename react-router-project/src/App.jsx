@@ -1,5 +1,6 @@
-import './App.css'
-import {createBrowserRouter,RouterProvider,} from "react-router-dom";
+import React from 'react';  // <-- Add this line
+import './App.css';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from './Components/Home';
 import About from './Components/About';
 import Dashboard from './Components/Dashboard';
@@ -9,7 +10,6 @@ import Courses from './Components/Courses';
 import Mocktest from './Components/Mocktest';
 import Reports from './Components/Reports';
 import Footer from './Components/Footer';
-
 
 const router = createBrowserRouter([
   {
@@ -54,7 +54,6 @@ const router = createBrowserRouter([
     path: "/Navbar",
     element: <Navbar/>
   },
-
   {
     path: "/student/:id", //query parameter
     element:
@@ -65,12 +64,13 @@ const router = createBrowserRouter([
   }
 ]);
 
-function App(){
-  return(
+function App() {
+  return (
     <div>
       <RouterProvider router={router} />
       <Footer/>
     </div>
-  )
+  );
 }
+
 export default App;
